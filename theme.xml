@@ -1,0 +1,168 @@
+<!--
+theme name:     pixeline
+version:        v0.1
+author:         Sion Siydo
+license:        creative commons CC-BY-NC-SA
+credit:         font "Small Pixel" by Dark MaxX
+                font "Source Sans Pro" by Google LLC
+                font "ChangaOne" by Eduardo Tunni
+                system logo artworks by Eric Hettervik
+                system logos modified by Anthony Caccese
+                images containing "ChangaOne" font created by Anthony Caccese
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <variables>
+    <themeColor>008fd1</themeColor>
+    <logoFont>./_inc/fonts/small.pixel.ttf</logoFont>
+    <bodyFont>./_inc/fonts/sourcesanspro.regular.ttf</bodyFont>
+  </variables>
+  <feature supported="carousel">
+    <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0.0 -0.2</pos>
+        <logoAlignment>middle</logoAlignment>
+        <size>1 1</size>
+        <logoScale>2</logoScale>
+        <logoSize>0.3 0.25</logoSize>
+        <color>000000</color>
+        <maxLogoCount>1</maxLogoCount>
+        <zIndex>3</zIndex>
+      </carousel>
+      <text name="systemInfo">
+        <pos>0 0.73</pos>
+        <color>7b7b7b</color>
+        <fontPath>${bodyFont}</fontPath>
+	    <fontSize>0.06</fontSize>
+        <zIndex>4</zIndex>
+      </text>
+    </view>
+  </feature>
+  <view name="system,detailed,video,basic">
+    <helpsystem name="help">
+      <pos>0.0 -0.5</pos>
+    </helpsystem>
+  </view>
+  <view name="basic">
+    <textlist name="gamelist">
+      <pos>0.03 0.19</pos>
+      <size>.937 0.78</size>
+      <alignment>center</alignment>
+    </textlist>
+  </view>
+  <view name="basic,detailed,video">
+    <image name="background" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <color>000000</color>
+      <zIndex>2</zIndex>
+    </image>
+    <textlist name="gamelist">
+      <selectorColor>000000</selectorColor>
+      <selectedColor>${themeColor}</selectedColor>
+      <primaryColor>e1e1e1</primaryColor>
+      <secondaryColor>e1e1e1</secondaryColor>
+      <fontPath>${bodyFont}</fontPath>
+      <forceUppercase>0</forceUppercase>
+      <fontSize>0.06</fontSize>
+      <scrollSound>./_inc/sounds/move.wav</scrollSound>
+      <zIndex>3</zIndex>
+    </textlist>
+  </view>
+  <view name="detailed,video">
+    <textlist name="gamelist">
+      <pos>0.515 0.04</pos>
+      <size>0.47 0.95</size>
+      <alignment>left</alignment>
+    </textlist>
+    <image name="background2" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./_inc/images/bg.detail.png</path>
+      <zIndex>1</zIndex>
+    </image>
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.251 0.72</pos>
+      <maxSize>0.47 0.47</maxSize>
+      <zIndex>2</zIndex>
+    </image>
+    <video name="md_video">
+      <origin>0.5 0.5</origin>
+      <pos>0.251 0.72</pos>
+      <maxSize>0.47 0.47</maxSize>
+      <delay>3</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <zIndex>2</zIndex>
+    </video>
+    <rating name="md_rating">
+      <origin>0.5 0.5</origin>
+      <zIndex>5</zIndex>
+      <pos>0.266 0.435</pos>
+      <size>0.054 0.054</size>
+      <filledPath>./_inc/images/rating.full.png</filledPath>
+      <unfilledPath>./_inc/images/rating.hollow.png</unfilledPath>
+      <zIndex>2</zIndex>
+    </rating>
+    <text name="md_publisher,md_developer,md_players,md_genre">
+      <origin>0.5 0.5</origin>
+      <size>0.6 0.6</size>
+      <fontPath>${logoFont}</fontPath>
+      <color>c1c1c1</color>
+      <zIndex>2</zIndex>
+    </text>
+    <text name="md_publisher">
+      <pos>0.316 0.283</pos>
+    </text>
+    <text name="md_developer,md_players">
+      <alignment>right</alignment>
+    </text>
+    <text name="md_developer">
+      <pos>0.186 0.283</pos>
+    </text>
+    <text name="md_players">
+      <pos>0.15 0.36</pos>
+    </text>
+    <text name="md_genre">
+      <pos>0.316 0.36</pos>
+    </text>
+    <datetime name="md_releasedate">
+      <origin>0.5 0.5</origin>
+      <pos>0.316 0.32</pos>
+      <size>0.6 0.6</size>
+      <color>c1c1c1</color>
+      <format>%m/%Y</format>
+      <fontPath>${logoFont}</fontPath>
+      <zIndex>2</zIndex>
+    </datetime>
+  </view>
+  <view name="system">
+    <image name="logo">
+      <path>./_inc/systems/${system.theme}.svg</path>
+    </image>
+  </view>
+  <view name="basic">
+    <image name="system" extra="true">
+      <origin>0.5 0</origin>
+      <pos>0.5 0.06</pos>
+      <maxSize>0.7 .1</maxSize>
+      <path>./_inc/systems/${system.theme}.svg</path>
+      <zIndex>3</zIndex>
+    </image>
+  </view>
+  <view name="detailed,video">
+    <image name="system" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.25 0.125</pos>
+      <maxSize>0.3 0.14</maxSize>
+      <path>./_inc/systems/${system.theme}.svg</path>
+      <zIndex>3</zIndex>
+    </image>
+  </view>
+</theme>
