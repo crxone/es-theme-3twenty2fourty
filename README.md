@@ -4,7 +4,7 @@
 
 ## setup
 ```
-$ git clone https://github.com/crxone/es-theme-pixeline.git ~/.emulationstation/themes/pixeline
+git clone https://github.com/crxone/es-theme-pixeline.git ~/.emulationstation/themes/pixeline
 ```
 ## recommended settings (retropie main menu)
 ```
