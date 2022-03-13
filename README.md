@@ -1,6 +1,6 @@
-# 3twenty2fourty / 320x240 / retropie emulationstation theme
+# 3twenty2fourty / retropie emulationstation theme (320x240/240p)
 
-![3twenty2fourty system view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/_inc/preview/system.png?raw=true) ![3twenty2fourty basic view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/_inc/preview/basic.png?raw=true) ![3twenty2fourty detailed view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/_inc/preview/detailed.png?raw=true)
+![system view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/inc/preview/system.png?raw=true) ![basic view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/inc/preview/basic.png?raw=true) ![detailed view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/inc/preview/detailed.png?raw=true)
 
 ## setup
 ```
