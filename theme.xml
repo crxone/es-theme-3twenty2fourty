@@ -1,6 +1,5 @@
 <!--
 theme name:     3twenty2fourty
-version:        v0.1
 author:         Sion Siydo
 license:        creative commons CC-BY-NC-SA
 credit:         font "Small Pixel" by Dark MaxX
@@ -16,7 +15,7 @@ credit:         font "Small Pixel" by Dark MaxX
   <formatVersion>4</formatVersion>
   <variables>
     <themeColor>008fd1</themeColor>
-    <logoFont>./inc/fonts/small.pixel.ttf</logoFont>
+    <logoFont>./inc/fonts/smallpixel.ttf</logoFont>
     <bodyFont>./inc/fonts/sourcesanspro.regular.ttf</bodyFont>
   </variables>
   <feature supported="carousel">
