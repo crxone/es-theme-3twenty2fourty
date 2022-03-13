@@ -6,6 +6,10 @@
 ```
 git clone https://github.com/crxone/es-theme-3twenty2fourty.git ~/.emulationstation/themes/3twenty2fourty
 ```
+## update
+```
+git -C ~/.emulationstation/themes/3twenty2fourty pull origin master
+```
 ## recommended settings (retropie main menu)
 ```
 - Scraper > Scrape from: Screenscraper*
