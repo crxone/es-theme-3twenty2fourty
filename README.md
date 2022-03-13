@@ -1,10 +1,10 @@
-# pixeline (320x240) / retropie emulationstation theme
+# 3twenty2fourty / 320x240 / retropie emulationstation theme
 
-![pixeline system view](https://github.com/crxone/es-theme-pixeline/blob/master/_inc/preview/system.png?raw=true) ![pixeline basic view](https://github.com/crxone/es-theme-pixeline/blob/master/_inc/preview/basic.png?raw=true) ![pixeline detailed view](https://github.com/crxone/es-theme-pixeline/blob/master/_inc/preview/detailed.png?raw=true)
+![3twenty2fourty system view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/_inc/preview/system.png?raw=true) ![3twenty2fourty basic view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/_inc/preview/basic.png?raw=true) ![3twenty2fourty detailed view](https://github.com/crxone/es-theme-3twenty2fourty/blob/master/_inc/preview/detailed.png?raw=true)
 
 ## setup
 ```
-git clone https://github.com/crxone/es-theme-pixeline.git ~/.emulationstation/themes/pixeline
+git clone https://github.com/crxone/es-theme-3twenty2fourty.git ~/.emulationstation/themes/3twenty2fourty
 ```
 ## recommended settings (retropie main menu)
 ```
