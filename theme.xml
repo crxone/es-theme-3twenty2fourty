@@ -35,7 +35,7 @@ credit:         font "Small Pixel" by Dark MaxX
         <pos>0 0.73</pos>
         <color>7b7b7b</color>
         <fontPath>${bodyFont}</fontPath>
-	    <fontSize>0.06</fontSize>
+	<fontSize>0.06</fontSize>
         <zIndex>4</zIndex>
       </text>
     </view>
