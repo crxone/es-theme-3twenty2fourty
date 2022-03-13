@@ -16,8 +16,8 @@ credit:         font "Small Pixel" by Dark MaxX
   <formatVersion>4</formatVersion>
   <variables>
     <themeColor>008fd1</themeColor>
-    <logoFont>./_inc/fonts/small.pixel.ttf</logoFont>
-    <bodyFont>./_inc/fonts/sourcesanspro.regular.ttf</bodyFont>
+    <logoFont>./inc/fonts/small.pixel.ttf</logoFont>
+    <bodyFont>./inc/fonts/sourcesanspro.regular.ttf</bodyFont>
   </variables>
   <feature supported="carousel">
     <view name="system">
@@ -69,7 +69,7 @@ credit:         font "Small Pixel" by Dark MaxX
       <fontPath>${bodyFont}</fontPath>
       <forceUppercase>0</forceUppercase>
       <fontSize>0.06</fontSize>
-      <scrollSound>./_inc/sounds/move.wav</scrollSound>
+      <scrollSound>./inc/sounds/move.wav</scrollSound>
       <zIndex>3</zIndex>
     </textlist>
   </view>
@@ -83,7 +83,7 @@ credit:         font "Small Pixel" by Dark MaxX
       <origin>0 0</origin>
       <pos>0 0</pos>
       <size>1 1</size>
-      <path>./_inc/images/bg.detail.png</path>
+      <path>./inc/images/bg.detail.png</path>
       <zIndex>1</zIndex>
     </image>
     <image name="md_image">
@@ -106,8 +106,8 @@ credit:         font "Small Pixel" by Dark MaxX
       <zIndex>5</zIndex>
       <pos>0.266 0.435</pos>
       <size>0.054 0.054</size>
-      <filledPath>./_inc/images/rating.full.png</filledPath>
-      <unfilledPath>./_inc/images/rating.hollow.png</unfilledPath>
+      <filledPath>./inc/images/rating.full.png</filledPath>
+      <unfilledPath>./inc/images/rating.hollow.png</unfilledPath>
       <zIndex>2</zIndex>
     </rating>
     <text name="md_publisher,md_developer,md_players,md_genre">
@@ -144,7 +144,7 @@ credit:         font "Small Pixel" by Dark MaxX
   </view>
   <view name="system">
     <image name="logo">
-      <path>./_inc/systems/${system.theme}.svg</path>
+      <path>./inc/systems/${system.theme}.svg</path>
     </image>
   </view>
   <view name="basic">
@@ -152,7 +152,7 @@ credit:         font "Small Pixel" by Dark MaxX
       <origin>0.5 0</origin>
       <pos>0.5 0.06</pos>
       <maxSize>0.7 .1</maxSize>
-      <path>./_inc/systems/${system.theme}.svg</path>
+      <path>./inc/systems/${system.theme}.svg</path>
       <zIndex>3</zIndex>
     </image>
   </view>
@@ -161,7 +161,7 @@ credit:         font "Small Pixel" by Dark MaxX
       <origin>0.5 0.5</origin>
       <pos>0.25 0.125</pos>
       <maxSize>0.3 0.14</maxSize>
-      <path>./_inc/systems/${system.theme}.svg</path>
+      <path>./inc/systems/${system.theme}.svg</path>
       <zIndex>3</zIndex>
     </image>
   </view>
